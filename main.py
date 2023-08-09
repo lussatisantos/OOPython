@@ -1,14 +1,13 @@
 from pessoa import Pessoa
+from datetime import date
 
 p1 = Pessoa('Lussati', 20)
 p2 = Pessoa('Santos', 19)
 
 
-p2.comer('banana')
+p1.falar('Geopolitica internacional')
 p2.falar('POO')
-p2.parar_comer()
-p2.falar('POO')
-p2.comer('Arroz')
-p2.parar_falar()
-p2.parar_comer()
-p2.falar('Geopolitica internacional')
+
+
+print(p1.get_ano_nascimento())
+print(p2.get_ano_nascimento())
