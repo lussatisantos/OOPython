@@ -14,6 +14,8 @@ class Pessoa:
         return cls(nome, idade)
     
 
-p1 = Pessoa.por_ano_nascimento('Paulo', 2001)
+# p1 = Pessoa.por_ano_nascimento('Paulo', 2001)
+p1 = Pessoa('Alberto', 1994)
+print(p1)
 print(p1.nome, p1.idade)
 p1.get_ano_nascimento()
